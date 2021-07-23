@@ -1,6 +1,7 @@
 import Card from "./Card";
 import Button from "./Button";
 import styles from "./ErrorModal.module.css";
+import ReactDOM from "react-dom";
 
 const Backdrop = ({ onClose }) => {
   return <div onClick={onClose} className={styles.backdrop} />;
